@@ -1,11 +1,5 @@
 import logging
 
-from pages.category_page import CategoryPage
-from pages.home_page import HomePage
-from pages.login_page import LoginPage
-from pages.product_page import ProductPage
-from tests.base_test import BaseTest
-
 
 class TestCheckPanel(BaseTest):
     """Test case is:
