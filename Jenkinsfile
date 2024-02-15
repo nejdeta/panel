@@ -1,5 +1,4 @@
-pipeline
-{
+    pipeline {
   agent any
   stages {
     stage('version') {
@@ -7,7 +6,7 @@ pipeline
         sh 'python3 --version'
       }
     }
-     stage('build') {
+         stage('build') {
       steps {
         script{
           sh 'python3 -m pip install --upgrade pip'
@@ -22,3 +21,4 @@ pipeline
       }
     }
   }
+}
