@@ -1,5 +1,5 @@
 import logging
-
+from tests.base_test import BaseTest
 
 class TestCheckPanel(BaseTest):
     """Test case is:
