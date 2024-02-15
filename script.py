@@ -13,7 +13,7 @@ try:
     search_box = driver.find_element("name", "q")
 
     # Arama yapın
-    search_box.send_keys("Python Selenium Dockerize")
+    search_box.send_keys("Python Selenium Jenkins Pipelinerun")
 
     # Enter tuşuna basın
     search_box.submit()
